@@ -1,0 +1,29 @@
+.category_text_effect:hover {
+  color: rgba(239, 127, 26, 1);
+  cursor: pointer;
+}
+
+.category_text_effect {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .aboutData {
+    margin-left: 4rem !important;
+  }
+
+  .oneProduct {
+    // background: #000 !important;
+    img {
+      width: 250px !important;
+      margin-left: 1.5rem !important;
+    }
+    .productText {
+      font-size: 16px;
+      margin-right: 5rem;
+    }
+    .line {
+      margin-left: 3.2rem;
+    }
+  }
+}

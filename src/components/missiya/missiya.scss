@@ -1,0 +1,76 @@
+.about_us {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  // flex-wrap: wrap;
+  //   background-color: rgba(148, 152, 173, 1);
+  //   border-bottom-left-radius: 50px;
+  width: 100%;
+  margin: 0 auto;
+  // padding: 10rem 0 10rem 0;
+  // background: #ffff !important;
+
+  .missiyaImg {
+    // width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: -10%;
+    // margin: 0 1.3rem;
+    align-self: center;
+    align-items: center;
+
+    img {
+      width: 70%;
+    }
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: baseline;
+    width: 40%;
+    gap: 1.5rem;
+    // margin-top: -1rem !important;
+    // background: #000 !important;
+    // margin-left: 11%;
+    margin: 0 5%;
+    .more {
+      font-size: 0.875em !important;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .about_us {
+    flex-direction: column !important;
+    padding: 0 !important;
+
+    .about_links {
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 1rem;
+    }
+    .img {
+      width: 100% !important;
+      display: block;
+    }
+    .texts {
+      width: 90% !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .missiyaImg img {
+    width: 100% !important;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .texts {
+    margin-top: 0 !important;
+  }
+}
