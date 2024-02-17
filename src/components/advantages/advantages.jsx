@@ -13,16 +13,44 @@ import sertifikat4 from "/4.png";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-
+import Button from "@mui/material/Button";
+// import Typography from "@mui/material/Typography";
 import { v4 as uuidv4 } from "uuid";
+import { styled } from "@mui/system";
 
 // import { FiArrowUpRight } from "react-icons/fi";
-
+const useStyles = styled({
+  card: {
+    backgroundColor: "#ffffff",
+    borderRadius: "10px",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    transition: "box-shadow 0.3s ease",
+    "&:hover": {
+      boxShadow: "0 6px 10px rgba(0, 0, 0, 0.2)",
+    },
+  },
+  tag: {
+    backgroundColor: "#1276FF",
+    color: "#ffffff",
+    padding: "5px 10px",
+    borderRadius: "5px",
+    marginRight: "5px",
+  },
+  buyButton: {
+    backgroundColor: "rgba(19, 177, 244, 0.8)",
+    color: "#ffffff",
+    borderRadius: "5px",
+    transition: "background-color 0.3s ease",
+    "&:hover": {
+      backgroundColor: "rgba(19, 177, 244, 1)",
+    },
+  },
+});
 // Наши преимущества
 
 const Advantages = () => {
   const { t } = useTranslation();
-
+  const classes = useStyles();
   // {t("main_4_1")}
 
   let cardinfo = [
@@ -95,41 +123,67 @@ const Advantages = () => {
       </div>
       <Box className="infos pb-24">
         {cardinfo.map((info) => (
-          <Card
-            className="cards"
-            style={{
-              // maxWidth: "100%",
-              // minWidth: "20%",
-              // width: "100%",
-              padding: "",
-              borderRadius: "0.5em !important",
-            }}
-            key={uuidv4()}
-          >
-            <CardHeader
-              avatar={
-                <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
-                >
-                  <img
-                    src={info.image}
-                    alt="study"
-                    style={{ width: "20%", height: "100%" }}
-                  />
-                </div>
-              }
-            />
-            {/* <CardContent>
-              <Typography
-                style={{ color: "#000 !important" }}
-                variant="h6"
-                component="p"
-                color="black"
-              >
-                {info.title}
+          <Card key={info} className={classes.card}>
+            <CardContent>
+              <Typography variant="h5" component="h2" gutterBottom>
+                {"title"}
               </Typography>
-            </CardContent> */}
+              <div>
+                {/* {tags.map((tag, index) => (
+                  <span key={index} className={classes.tag}>
+                    {tag}
+                  </span>
+                ))} */}
+                <span className={classes.tag}>teglar</span>
+              </div>
+              <Typography
+                variant="body2"
+                color="textSecondary"
+                component="p"
+                gutterBottom
+              >
+                description
+              </Typography>
+              <Button variant="contained" className={classes.buyButton}>
+                Sotib olish
+              </Button>
+            </CardContent>
           </Card>
+          // <Card
+          //   className="cards"
+          //   style={{
+          //     // maxWidth: "100%",
+          //     // minWidth: "20%",
+          //     // width: "100%",
+          //     padding: "",
+          //     borderRadius: "0.5em !important",
+          //   }}
+          //   key={uuidv4()}
+          // >
+          //   <CardHeader
+          //     avatar={
+          //       <div
+          //         style={{ display: "flex", justifyContent: "space-between" }}
+          //       >
+          //         <img
+          //           src={info.image}
+          //           alt="study"
+          //           style={{ width: "20%", height: "100%" }}
+          //         />
+          //       </div>
+          //     }
+          //   />
+          //   {/* <CardContent>
+          //     <Typography
+          //       style={{ color: "#000 !important" }}
+          //       variant="h6"
+          //       component="p"
+          //       color="black"
+          //     >
+          //       {info.title}
+          //     </Typography>
+          //   </CardContent> */}
+          // </Card>
         ))}
       </Box>
     </div>

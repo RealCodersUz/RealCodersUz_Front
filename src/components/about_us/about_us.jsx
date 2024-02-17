@@ -67,8 +67,8 @@ const AboutUs = () => {
                 // width: "180px",
                 height: "30px",
                 padding: "20px 24px",
-                color: "rgba(239, 127, 26, 1)",
-                border: "2px solid rgba(239, 127, 26, 1)",
+                color: "#1276FF",
+                border: "2px solid #1276FF",
                 // background: "#000",
                 borderRadius: "100px",
               }}
@@ -87,8 +87,8 @@ const AboutUs = () => {
                 // width: "180px",
                 height: "30px",
                 padding: "20px 24px",
-                color: "rgba(239, 127, 26, 1)",
-                border: "2px solid rgba(239, 127, 26, 1)",
+                color: "#1276FF",
+                border: "2px solid #1276FF",
                 borderRadius: "100px",
               }}
               className="aboutBtn"

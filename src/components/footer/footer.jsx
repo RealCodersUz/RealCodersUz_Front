@@ -5,9 +5,9 @@ import {
   TbBrandFacebook,
 } from "react-icons/tb";
 import { BsTelephoneFill } from "react-icons/bs";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+// import { MdEmail, MdLocationOn } from "react-icons/md";
 
-import footer_img from "../../assets/navbar_img.png";
+import footer_img from "/alcoders_logo.png";
 import "./footer.scss";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -30,7 +30,7 @@ const Footer = () => {
           <img
             src={footer_img}
             alt="logo"
-            style={{ width: "12rem", height: "100%" }}
+            style={{ width: "5rem", height: "50%" }}
           />
           <p className="text-white py-4 max-w-sm w-72">{t("footer_1_1")}</p>
           <div
@@ -46,7 +46,7 @@ const Footer = () => {
             className="s_links"
           >
             <article
-              className="social_btn btn bg-orange-500 p-3 "
+              className="social_btn btn bg-cyan-400 p-3 "
               style={{
                 borderRadius: "8px",
               }}
@@ -60,7 +60,7 @@ const Footer = () => {
               </Link>
             </article>
             <article
-              className="social_btn btn bg-orange-500 p-3 "
+              className="social_btn btn bg-cyan-400 p-3 "
               style={{
                 borderRadius: "8px",
               }}
@@ -74,7 +74,7 @@ const Footer = () => {
               </Link>
             </article>
             <article
-              className="social_btn btn bg-orange-500 p-3 "
+              className="social_btn btn bg-cyan-400 p-3 "
               style={{
                 borderRadius: "8px",
               }}
@@ -109,63 +109,34 @@ const Footer = () => {
           <p className="footer-sections pb-12">{t("footer_1_3")}</p>
           <ul>
             <li>
-              <Link
-                to="tel:+998900452533"
+              <a
+                href="tel:+998904024707"
                 style={{ textAlign: "center" }}
-                className=" text-white active:text-orange-500 items"
+                className=" text-white active: items"
               >
-                <BsTelephoneFill className="icons text-xl text-orange-500" />
-                +998(90) 045 25 33
-              </Link>
+                <BsTelephoneFill className="icons text-xl " />
+                +998 90 402 47 07
+              </a>
             </li>
             <li>
-              <Link
-                to="tel:+998900452533"
+              <a
+                href="tel:+998916223406"
                 style={{ textAlign: "center" }}
-                className=" text-white active:text-orange-500 items"
+                className=" text-white items"
               >
-                <BsTelephoneFill className="icons text-xl text-orange-500" />
-                +998(90) 015 25 33
-              </Link>
+                <BsTelephoneFill className="icons text-xl " />
+                +998 91 622 34 06
+              </a>
             </li>
             <li>
-              <Link
-                to="tel:+998900352533"
+              <a
+                href="tel:+998940352533"
                 style={{ textAlign: "center" }}
-                className=" text-white active:text-orange-500 items"
+                className=" text-white active: items"
               >
-                <BsTelephoneFill className="icons text-xl text-orange-500" />
-                +998(90) 035 25 33
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="tel:+998908218222"
-                style={{ textAlign: "center" }}
-                className="pages text-white active:text-orange-500 items"
-              >
-                <BsTelephoneFill className="icons text-xl text-orange-500" />
-                +998(90) 821 82 22
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="mailto:kaldeuz@mail.ru"
-                style={{ textAlign: "center" }}
-                className="pages text-white active:text-orange-500 items"
-              >
-                <MdEmail className="icons text-xl text-orange-500" />{" "}
-                kaldeuz@mail.ru
-              </Link>
-            </li>
-            <li>
-              <p
-                style={{ textAlign: "center" }}
-                className="pages text-white active:text-orange-500 flex flex-row items-center justify-center "
-              >
-                <MdLocationOn className="icons text-5xl text-orange-500" />
-                {t("manzil_name")}
-              </p>
+                <BsTelephoneFill className="icons text-xl " />
+                +998 94 035 25 33
+              </a>
             </li>
           </ul>
         </Box>
@@ -175,14 +146,14 @@ const Footer = () => {
           <p style={{ textAlign: "center" }}>
             © {t("muallif")}{" "}
             <a
-              href="https://supersite.uz"
+              href="https://alcoders.uz"
               target="_blank"
               style={{
                 color: "yellow",
               }}
               rel="noreferrer"
             >
-              Supersite.uz
+              alcoders.uz
             </a>{" "}
           </p>
         </li>

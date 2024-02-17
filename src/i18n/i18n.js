@@ -1,8 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 i18n.use(initReactI18next).init({
-  fallbackLng: "uz",
-  lng: "ru",
+  fallbackLng: "ru",
+  lng: "uz",
   resources: {
     uz: {
       translation: {
@@ -13,16 +13,16 @@ i18n.use(initReactI18next).init({
         navbar_news_link: "Narxlar",
         navbar_contact_link: "Kontaktlar",
         navbar_lang_select: "Tilni tanlang",
-        main_1_1: "KALDE nima?",
+        main_1_1: "AlCoders nima?",
         main_1_2:
-          "KALDE - barcha xalqaro standartlarga javob beradigan va ko'plab xalqaro standartlar tizimlarining sertifikatlariga ega bo'lgan yuqori sifatli mahsulot!",
+          "AlCoders - barcha xalqaro standartlarga javob beradigan va ko'plab xalqaro standartlar tizimlarining sertifikatlariga ega bo'lgan yuqori sifatli mahsulot!",
         main_1_3:
-          "KALDE - bu sanoat va maishiy hududlarda zamonaviy isitish va suv ta'minoti tizimlarida foydalanish uchun mo'ljallangan polipropilen quvurlar va fitinglar, kranlar, metall kollektorlar va metall fitinglar.",
+          "AlCoders - bu sanoat va maishiy hududlarda zamonaviy isitish va suv ta'minoti tizimlarida foydalanish uchun mo'ljallangan polipropilen quvurlar va fitinglar, kranlar, metall kollektorlar va metall fitinglar.",
         main_1_4: "Ko'proq bilish",
-        main_1_5: "KALDE - ko'p yillik tajribaga ega kompaniya!",
+        main_1_5: "AlCoders - ko'p yillik tajribaga ega kompaniya!",
         main_2_1: "Biz haqimizda",
         main_2_2:
-          "KALDE - 1977 yilda tashkil etilgan, Turkiyaning Istanbul shahrida joylashgan bo'lib, zamonaviy isitish va suv ta'minoti tizimlari uchun mahsulotlar ishlab chiqaradi. Bugungi kunda KALDE mahsulotlari dunyoning 50 ta davlatida tanilgan. Barcha mahsulotlar xalqaro sertifikatlarga ega. Kalde mahsulotlari O'zbekiston bozorida 2009 yilda mashhur bo'lgan. Bugungi kunda O'zbekistonda Kalde mahsulotlarini 20 dan ortiq ixtisoslashtirilgan do'konlarda xarid qilish mumkin!",
+          "AlCoders - 2023 yilda tashkil etilgan, Turkiyaning Istanbul shahrida joylashgan bo'lib, zamonaviy isitish va suv ta'minoti tizimlari uchun mahsulotlar ishlab chiqaradi. Bugungi kunda AlCoders mahsulotlari dunyoning 50 ta davlatida tanilgan. Barcha mahsulotlar xalqaro sertifikatlarga ega. AlCoders mahsulotlari O'zbekiston bozorida 2009 yilda mashhur bo'lgan. Bugungi kunda O'zbekistonda AlCoders mahsulotlarini 20 dan ortiq ixtisoslashtirilgan do'konlarda xarid qilish mumkin!",
         main_2_3: "Ko'proq bilish",
         main_2_4: "Biz bilan bog'lanish",
         main_3_1: "Sertifikatlar",
@@ -41,14 +41,14 @@ i18n.use(initReactI18next).init({
         //asosiy oyna tugadi
         about_1_1: "Biz haqimizda",
         about_1_2:
-          "1977 yil, Turkiyalik 4-ta muxandis, KALDE kompaniyasini tashkil etgan. O'z oldilariga  xalq uchun yuqori  sifatli mahsulotlarni  yetkazish deb maqsad qo'yishgan. KALDE kompaniyasi birinchilar qatorida, chet eldan (Evropadan) zamonaviy texnologiyalar va uskunalar olib kelib, suv taʻminoti va isitish tizimlar uchun mahsulotlar ishlab chiqarishni boshlashgan. 1990 yillarda, ichki bozorni yetarli darajada taʻminlab, mahsulotlarni chetel bozoriga tanishtirgan. Shu yillarda, Turkiyada  birinchilar qatorida plastik mahsulotlarni ishlab chiqarishi yo'lga qo'yilgan. 1995 yildan boshlab va xozirgi kunda Turkiyaning 500 yirik kompaniyalaridan biri.",
+          "2023 yil, Turkiyalik 4-ta muxandis, AlCoders kompaniyasini tashkil etgan. O'z oldilariga  xalq uchun yuqori  sifatli mahsulotlarni  yetkazish deb maqsad qo'yishgan. AlCoders kompaniyasi birinchilar qatorida, chet eldan (Evropadan) zamonaviy texnologiyalar va uskunalar olib kelib, suv taʻminoti va isitish tizimlar uchun mahsulotlar ishlab chiqarishni boshlashgan. 1990 yillarda, ichki bozorni yetarli darajada taʻminlab, mahsulotlarni chetel bozoriga tanishtirgan. Shu yillarda, Turkiyada  birinchilar qatorida plastik mahsulotlarni ishlab chiqarishi yo'lga qo'yilgan. 1995 yildan boshlab va xozirgi kunda Turkiyaning 500 yirik kompaniyalaridan biri.",
         about_1_3: "Biz bilan bog'lanish",
-        about_2_1: "O'zbekistonda Kalde",
+        about_2_1: "O'zbekistonda AlCoders",
         about_2_2:
-          "INORA IMPEX (O‘zbekiston) kompaniyasi ishlab chiqaruvchi KALDE KLIMA PAZARLAMA VE TAAHHÜT AŞ (Turkiya) bilan olib borilgan muzokaralardan keyin mahsulotning yuqori sifatiga ishonch hosil qildi. KALDE mahsulotlarini O‘zbekistonga birinchi yetkazib berish 2009-yilning noyabr oyida amalga oshirilgan. 2010-yildan boshlab O‘zbekistonda KALDE brendi mahsulotlarining barcha turlarini sotuvchi do‘konlar tarmog‘i yaratilgan. 2023-yilda Toshkent, Buxoro, Namangan, Andijon, Jizzax, Qo‘qon shaharlarida 20 dan ortiq do‘konlar tarmog‘i joriy etildi. Shaharlarda yirik filiallari bor: Buxoro, Namangan.",
+          "INORA IMPEX (O‘zbekiston) kompaniyasi ishlab chiqaruvchi AlCoders KLIMA PAZARLAMA VE TAAHHÜT AŞ (Turkiya) bilan olib borilgan muzokaralardan keyin mahsulotning yuqori sifatiga ishonch hosil qildi. AlCoders mahsulotlarini O‘zbekistonga birinchi yetkazib berish 2009-yilning noyabr oyida amalga oshirilgan. 2010-yildan boshlab O‘zbekistonda AlCoders brendi mahsulotlarining barcha turlarini sotuvchi do‘konlar tarmog‘i yaratilgan. 2023-yilda Toshkent, Buxoro, Namangan, Andijon, Jizzax, Qo‘qon shaharlarida 20 dan ortiq do‘konlar tarmog‘i joriy etildi. Shaharlarda yirik filiallari bor: Buxoro, Namangan.",
         about_3_1: "Sifatli mahsulotlar",
         about_3_2:
-          "Kalde ko'p jihatdan zamonaviy mahsulotlarni ishlab chiqishga investitsiyalar , yuqori samaradorlik va ishlab chiqarish quvvatlarining salohiyatiga etibor qaratadi .Kalde global bozorlarda tegishli mahsulotlarga bo'lgan o'zgaruvchan talabga tezda javob berish uchun o'z mahsulotlarini doimiy ravishda optimallashtiradi. Dunyo standartlariga to'gri keladigan, KALDE mahsulotlari, dunyodagi 40-ta yirik mamlakatlarida tanilgan. Barcha mahsulotlariga, xalqaro sertifikatlari mavjud.",
+          "AlCoders ko'p jihatdan zamonaviy mahsulotlarni ishlab chiqishga investitsiyalar , yuqori samaradorlik va ishlab chiqarish quvvatlarining salohiyatiga etibor qaratadi .AlCoders global bozorlarda tegishli mahsulotlarga bo'lgan o'zgaruvchan talabga tezda javob berish uchun o'z mahsulotlarini doimiy ravishda optimallashtiradi. Dunyo standartlariga to'gri keladigan, AlCoders mahsulotlari, dunyodagi 40-ta yirik mamlakatlarida tanilgan. Barcha mahsulotlariga, xalqaro sertifikatlari mavjud.",
         about_4_1: "Bizning xodimlarimiz",
         about_5_1: "Bizning afzalliklarimiz",
         about_5_2: "Yuqori sifat",
@@ -122,7 +122,7 @@ i18n.use(initReactI18next).init({
 
         // footer
         footer_1_1:
-          "KALDE - zamonaviy isitish va suv ta'minoti tizimlari uchun yuqori sifatli mahsulotlar.",
+          "AlCoders - zamonaviy isitish va suv ta'minoti tizimlari uchun yuqori sifatli mahsulotlar.",
         footer_1_2: "Foydali sahifalar",
         footer_1_3: "Biz bilan bog'lanish",
         manzil_name:
@@ -153,18 +153,18 @@ i18n.use(initReactI18next).init({
         navbar_news_link: "Прайс",
         navbar_contact_link: "Контакты",
         navbar_lang_select: "Выберите язык",
-        main_1_1: "Что такое КАЛДЕ?",
+        main_1_1: "Что такое AlCoders?",
         main_1_2:
-          " KALDE – это высококачественная продукция, соответствующая всем мировым стандартам и имеющая сертификаты многих систем международных стандартов!",
+          " AlCoders – это высококачественная продукция, соответствующая всем мировым стандартам и имеющая сертификаты многих систем международных стандартов!",
         main_1_3:
-          " KALDE – это полипропиленовые трубы и фитинги, краны, металлические коллектора и фитинги, предназначенные для использования в современных системах отопления и водоснабжения как в промышленной так и в бытовой сфере.",
+          " AlCoders – это полипропиленовые трубы и фитинги, краны, металлические коллектора и фитинги, предназначенные для использования в современных системах отопления и водоснабжения как в промышленной так и в бытовой сфере.",
 
         main_1_4: "Узнать больше",
         main_1_5:
-          " KALDE – это компания, за которой стоит многолетний опыт работы!",
+          " AlCoders – это компания, за которой стоит многолетний опыт работы!",
         main_2_1: "О нас",
         main_2_2:
-          "KALDE - основана в 1977 году, расположена в Стамбуле, Турция, производит продукцию для современных систем отопления и водоснабжения. Сегодня продукция KALDE известна в 50 странах мира.  Вся продукция имеет международные сертификаты. На рынке Узбекистана продукция Kalde стала известна в 2009 году. На сегодняшний день в Узбекистане продукцию Kalde можно купить более чем в 20 специализированных магазинах!",
+          "AlCoders - основана в 2023 году, расположена в Стамбуле, Турция, производит продукцию для современных систем отопления и водоснабжения. Сегодня продукция AlCoders известна в 50 странах мира.  Вся продукция имеет международные сертификаты. На рынке Узбекистана продукция AlCoders стала известна в 2009 году. На сегодняшний день в Узбекистане продукцию AlCoders можно купить более чем в 20 специализированных магазинах!",
         main_2_3: "Узнать больше",
         main_2_4: "Свяжитесь с нами",
         main_3_1: "Сертификаты",
@@ -183,15 +183,15 @@ i18n.use(initReactI18next).init({
         //asosiy oyna tugadi
         about_1_1: "О нас",
         about_1_2:
-          " Компания KALDE основана в 1977 году, в г. Стамбул (Турция), когда четыре инженера решили объединиться и воплотить мечту в реальность, создавая для народа качественную продукцию, отвечающую мировым требованиям. Компания KALDE одной из первых завезла современное технологическое оборудование из-за рубежа (из Европы) и начала производить продукцию для систем водоснабжения и отопления. В 1990-е годы, достаточно снабдив внутренний рынок, она вывела свою продукцию на внешний рынок. В эти годы одними из первых в Турции было запущено производство пластиковых изделий. С 1995 года и по сегодняшний день входит в число 500 крупнейших компаний Турции.",
+          " Компания AlCoders основана в 2023 году, в г. Стамбул (Турция), когда четыре инженера решили объединиться и воплотить мечту в реальность, создавая для народа качественную продукцию, отвечающую мировым требованиям. Компания AlCoders одной из первых завезла современное технологическое оборудование из-за рубежа (из Европы) и начала производить продукцию для систем водоснабжения и отопления. В 1990-е годы, достаточно снабдив внутренний рынок, она вывела свою продукцию на внешний рынок. В эти годы одними из первых в Турции было запущено производство пластиковых изделий. С 1995 года и по сегодняшний день входит в число 500 крупнейших компаний Турции.",
         about_1_3: "Свяжитесь с нами",
-        about_2_1: "Калде в Узбекистане",
+        about_2_1: "AlCoders в Узбекистане",
         about_2_2:
-          "Компания INORA IMPEX (Узбекистан) помимо переговоров с производителем KALDE KLİMA PAZARLAMA VE TAAHHÜT AŞ (Турция), и убедилась в высоком качестве продукта. Первая поставка продукции KALDE в Узбекистан была осуществлена в ноябре 2009 года.C 2010 года в Узбекистане создана сеть магазинов по продаже всех видов товаров бренда KALDE. В 2023 году представлена сеть из более чем 20 магазинов в городах: Ташкент, Бухарa, Наманган, Андижан, Джизак, Коканд. Имеются крупные филиалы в городах: Бухара, Наманган.",
+          "Компания INORA IMPEX (Узбекистан) помимо переговоров с производителем AlCoders KLİMA PAZARLAMA VE TAAHHÜT AŞ (Турция), и убедилась в высоком качестве продукта. Первая поставка продукции AlCoders в Узбекистан была осуществлена в ноябре 2009 года.C 2010 года в Узбекистане создана сеть магазинов по продаже всех видов товаров бренда AlCoders. В 2023 году представлена сеть из более чем 20 магазинов в городах: Ташкент, Бухарa, Наманган, Андижан, Джизак, Коканд. Имеются крупные филиалы в городах: Бухара, Наманган.",
 
         about_3_1: "Качество продукции",
         about_3_2:
-          "Kalde вкладывает значительные средства в разработку современных продуктов, высокую эффективность и потенциал производственных мощностей Kalde постоянно оптимизирует свою продукцию, чтобы быстро реагировать на меняющийся спрос на сопутствующие товары на мировых рынках. Продукция KALDE, отвечающая мировым стандартам, известна в 40 крупнейших странах мира. Вся продукция имеет международные сертификаты.",
+          "AlCoders вкладывает значительные средства в разработку современных продуктов, высокую эффективность и потенциал производственных мощностей AlCoders постоянно оптимизирует свою продукцию, чтобы быстро реагировать на меняющийся спрос на сопутствующие товары на мировых рынках. Продукция AlCoders, отвечающая мировым стандартам, известна в 40 крупнейших странах мира. Вся продукция имеет международные сертификаты.",
         about_4_1: "Наши сотрудники",
         about_5_1: "Наши преимущества",
         about_5_2: "Высокое качество",
@@ -260,14 +260,14 @@ i18n.use(initReactI18next).init({
         advantages_1_7:
           "Мы поддерживаем постоянное сотрудничество с инженерными фирмами и установщиками для повышения качества продукции и стимулирования инноваций. Это тесное сотрудничество способствует постоянному развитию продуктов, гарантируя, что наши предложения остаются на переднем крае качества и разнообразия. Наше стремление к прогрессу отражается в нашем динамичном взаимодействии с профессионалами отрасли.",
         advantages_1_8:
-          "На сегодняшний день, компания KALDE, имеет производственные фабрики в городах Стамбул, Денизли, Аксарай (Турция), что позволяет полностью удовлетворить спрос на производимую продукцию в полном объёме. Экспорт более чем в 20 стран мира, доказывает, что наша продукция признана в соответствующей мере.",
+          "На сегодняшний день, компания AlCoders, имеет производственные фабрики в городах Стамбул, Денизли, Аксарай (Турция), что позволяет полностью удовлетворить спрос на производимую продукцию в полном объёме. Экспорт более чем в 20 стран мира, доказывает, что наша продукция признана в соответствующей мере.",
         advantages_1_9: "Свяжитесь с нами",
         // Afzaliklar tugadi.
 
         // footer
 
         footer_1_1:
-          "KALDE – высококачественные товары для современных систем отопления и водоснабжения.",
+          "AlCoders – высококачественные товары для современных систем отопления и водоснабжения.",
         footer_1_2: "Полезные страницы",
         footer_1_3: "Свяжитесь с нами",
         manzil_name:
@@ -298,17 +298,17 @@ i18n.use(initReactI18next).init({
         navbar_news_link: "Prices",
         navbar_contact_link: "Contacts",
         navbar_lang_select: "Select language",
-        main_1_1: "What is KALDE?",
+        main_1_1: "What is AlCoders?",
         main_1_2:
-          "KALDE is a high-quality product that meets all international standards and has international standard system certificates!",
+          "AlCoders is a high-quality product that meets all international standards and has international standard system certificates!",
         main_1_3:
-          "KALDE, for heating and water supply systems, high-quality polypropylene pipes and fittings!",
+          "AlCoders, for heating and water supply systems, high-quality polypropylene pipes and fittings!",
 
         main_1_4: "To learn more",
-        main_1_5: "KALDE is a company with many years of experience!",
+        main_1_5: "AlCoders is a company with many years of experience!",
         main_2_1: "About us",
         main_2_2:
-          "KALDE - founded in 1977, located in Istanbul, Turkey, manufactures products for modern heating and water supply systems. Today KALDE products are known in 50 countries around the world. All products have international certificates. Kalde products became known in the Uzbek market in 2009. Today, Kalde products can be bought in more than 20 specialized stores in Uzbekistan!",
+          "AlCoders - founded in 2023, located in Istanbul, Turkey, manufactures products for modern heating and water supply systems. Today AlCoders products are known in 50 countries around the world. All products have international certificates. AlCoders products became known in the Uzbek market in 2009. Today, AlCoders products can be bought in more than 20 specialized stores in Uzbekistan!",
         main_2_3: "To learn more",
         main_2_4: "Contact us",
         main_3_1: "Certificates",
@@ -327,14 +327,14 @@ i18n.use(initReactI18next).init({
         //asosiy oyna tugadi
         about_1_1: "About us",
         about_1_2:
-          "In 1977, 4 Turkish engineers founded the KALDE company. The goal is to deliver high-quality products for the people. The KALDE company was one of the first to bring modern technology equipment from abroad (Europe) and start producing products for water supply and heating systems. In the 1990s, having sufficiently supplied the domestic market, it introduced its products to the foreign market. During these years, the production of plastic products was launched among the first in Turkey. Since 1995, and today, it is one of the 500 largest companies in Turkey.",
+          "In 2023, 4 Turkish engineers founded the AlCoders company. The goal is to deliver high-quality products for the people. The AlCoders company was one of the first to bring modern technology equipment from abroad (Europe) and start producing products for water supply and heating systems. In the 1990s, having sufficiently supplied the domestic market, it introduced its products to the foreign market. During these years, the production of plastic products was launched among the first in Turkey. Since 1995, and today, it is one of the 500 largest companies in Turkey.",
         about_1_3: "Contact us",
-        about_2_1: "Kalde in Uzbekistan",
+        about_2_1: "AlCoders in Uzbekistan",
         about_2_2:
-          "The company INORA IMPEX (Uzbekistan), in addition to negotiations with the manufacturer KALDE KLIMA PAZARLAMA VE TAAHHÜT AŞ (Turkey), was convinced of the high quality of the product. The first delivery of KALDE products to Uzbekistan was made in November 2009. Since 2010, a network of stores selling all types of KALDE brand products has been created in Uzbekistan. In 2023, a network of more than 20 stores was introduced in the cities of Tashkent, Bukhara, Namangan, Andijan, Jizzakh, Kokand. There are large branches in the cities: Bukhara, Namangan.",
+          "The company INORA IMPEX (Uzbekistan), in addition to negotiations with the manufacturer AlCoders KLIMA PAZARLAMA VE TAAHHÜT AŞ (Turkey), was convinced of the high quality of the product. The first delivery of AlCoders products to Uzbekistan was made in November 2009. Since 2010, a network of stores selling all types of AlCoders brand products has been created in Uzbekistan. In 2023, a network of more than 20 stores was introduced in the cities of Tashkent, Bukhara, Namangan, Andijan, Jizzakh, Kokand. There are large branches in the cities: Bukhara, Namangan.",
         about_3_1: "Quality products",
         about_3_2:
-          "Kalde invests heavily in modern product development, high efficiency, and the potential of production facilities. Kalde constantly optimizes its products to quickly respond to the changing demand for related products in global markets. KALDE products, meeting world standards, are known in 40 major countries of the world. All products have international certificates.",
+          "AlCoders invests heavily in modern product development, high efficiency, and the potential of production facilities. AlCoders constantly optimizes its products to quickly respond to the changing demand for related products in global markets. AlCoders products, meeting world standards, are known in 40 major countries of the world. All products have international certificates.",
         about_4_1: "Our employees",
         about_5_1: "Our advantages",
         about_5_2: "High quality",
@@ -408,7 +408,7 @@ i18n.use(initReactI18next).init({
 
         //footer
         footer_1_1:
-          "KALDE   high-quality products for modern heating and water supply systems.",
+          "AlCoders   high-quality products for modern heating and water supply systems.",
         footer_1_2: "Useful Pages",
         footer_1_3: "Contact Us",
 

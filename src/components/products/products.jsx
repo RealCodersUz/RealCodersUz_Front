@@ -79,8 +79,8 @@ const Products = () => {
               width: "180px",
               height: "30px",
               padding: "20px 24px",
-              color: "rgba(239, 127, 26, 1)",
-              border: "2px solid rgba(239, 127, 26, 1)",
+              color: "#1276FF",
+              border: "2px solid #1276FF",
               borderRadius: "100px",
             }}
             className="more hidden lg:flex"
@@ -168,9 +168,9 @@ const Products = () => {
             width: "180px",
             height: "30px",
             padding: "20px 24px",
-            color: "rgba(239, 127, 26, 1)",
+            color: "#1276FF",
 
-            border: "2px solid rgba(239, 127, 26, 1)",
+            border: "2px solid #1276FF",
             borderRadius: "100px",
           }}
           className="more flex lg:hidden justify-center mx-auto my-10"

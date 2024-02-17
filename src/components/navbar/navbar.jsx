@@ -1,4 +1,4 @@
-import logo from "../../assets/navbar_img.png";
+import logo from "/alcoders_logo.png";
 import "./navbar.scss";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -53,11 +53,11 @@ const Navbar = () => {
     <AppBar
       position="fixed"
       style={{
-        background: "rgba(255, 255, 255, 0.80)",
+        background: "rgba(19, 177, 244, 0.8)",
         backdropFilter: "blur(5px)",
         boxShadow: "none",
         borderRadius: "50px",
-        padding: "20px 40px",
+        padding: "15px 10px",
         margin: "20px auto",
         // width: "90vw",
         height: "93px",
@@ -75,11 +75,23 @@ const Navbar = () => {
           }}
         >
           <Link to={"/"}>
-            <img
-              src={logo}
-              alt="Kalde Logo"
-              style={{ width: "12rem", height: "100%" }}
-            />
+            <div
+              style={{
+                display: "flex",
+                justifyItems: "center",
+                alignItems: "center",
+                width: "100%",
+                height: "100%",
+                gap: "1rem",
+              }}
+            >
+              <img
+                src={logo}
+                alt="Kalde Logo"
+                style={{ width: "5rem", height: "50%" }}
+              />
+              <p style={{ fontSize: "2rem" }}>alcoders</p>
+            </div>
           </Link>
 
           <Box
@@ -107,7 +119,7 @@ const Navbar = () => {
             {pages.map((page) => (
               <Link
                 to={page.url}
-                className="text-blue-900 text-xl font-semibold active:text-orange-500 links"
+                className="text-white text-xl font-semibold active:text-blue-900 links"
                 key={page}
                 // style={{ color: "#324291" }}
                 // onClick={handleCloseNavMenu}
@@ -116,26 +128,25 @@ const Navbar = () => {
                 {page.name}
               </Link>
             ))}
-            <p className="divider">|</p>
 
             <Box>
-              <Link
-                className="text-blue-900 active:text-orange-500 flex flex-row links"
-                to="tel:+998900452533"
+              <a
+                className="text-white active:text-orange-900 flex flex-row links"
+                href="tel:+998916223406"
               >
                 <BiSolidPhoneCall
-                  className="text-3xl text-orange-500"
-                  style={{ marginRight: "0.5rem" }}
+                  className="text-3xl"
+                  style={{ marginRight: "0.5rem", color: "#1276FF" }}
                 />
-                +99890045KALDE
-              </Link>
+                +998916223406
+              </a>
               {/* </Button> */}
             </Box>
 
             <Box className="select">
               <FaGlobe
-                className="text-3xl text-orange-500"
-                style={{ marginRight: "0.5rem" }}
+                className="text-3xl "
+                style={{ marginRight: "0.5rem", color: "#1276FF" }}
               />
 
               <FormControl>
